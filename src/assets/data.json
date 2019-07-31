@@ -1,0 +1,36 @@
+{
+    "work": [
+        {
+            "name": "Mout's - Soluções em TI",
+            "position": "Full Stack Developer",
+            "start_date": "2018-09",
+            "end_date": "present",
+            "work_website": "http://mouts.info/",
+            "summary": "Working on the Web Systems team, delivering Node.js and/or PHP applications."
+        },
+        {
+            "name": "Portomontt - B2B",
+            "position": "PHP Full Developer",
+            "start_date": "2018-04",
+            "end_date": "2018-09",
+            "work_website": "http://portomontt.com.br",
+            "summary": "Working on the Web Systems team, delivering PHP applications with <a href='https://symfony.com'>Symfony</a> framwork. Focused in B2B and B2C e-commerces and institucional websites."
+        },
+        {
+            "name": "HBTec - CRM",
+            "position": "PHP / C++ Developer",
+            "start_date": "2009-06",
+            "end_date": "2011-02",
+            "work_website": "http://www.hbtec.com.br/",
+            "summary": "Working on the Web Systems and desktop softwares, delivering C++ and PHP applications. Focused in CRM systems."
+        },
+        {
+            "name": "",
+            "position": "",
+            "start_date": "",
+            "end_date": "",
+            "work_website": "",
+            "summary": ""
+        }
+    ]
+}

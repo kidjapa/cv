@@ -6,7 +6,12 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 	
 	<title>Bruno Luiz Katzjarowski - CV</title>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.5.1/vue-resource.js"></script>
 	<style>
 	article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:hover,a:active{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
 
@@ -55,7 +60,7 @@ blockquote {
 /* Header name styling */
 
 header {
-	background: #68B6E3;
+	background: rgb(40, 54, 61);
 	padding: 50px;
 	margin-bottom: 50px;
 }
@@ -202,141 +207,159 @@ header h2 {
 
 /* End styling */
 
-	</style>
-	
-	</head>
-	<body>
-	
-	<header>
-	<h1>Bruno Luiz Katzjarowski</h1>
-	<h2>Full Stack Developer at Mout's - Soluções em TI</h2>
-	</header>
+</style>
 
+</head>
+<body>
+
+	<header>
+		<h1>Bruno Luiz Katzjarowski</h1>
+		<h2>Full Stack Developer at Mout's - Soluções em TI</h2>
+	</header>
+<div id='cv-app'>
 	<div id="content" class="container">
-	<section id="basics">
-		<div class="contact">
-		<h3>Contact</h3>
-		<div class="website">
-			<strong>Website</strong>
-			http://webnofear.com.br/
-		</div>
-		<div class="email">
-			<strong>Email</strong>
-			brunoluizkatz@gmail.com
-		</div>
-		</div>
-		<div class="summary">
-			<h3>About</h3>
-			<p>PHP and Javascript specialist with strong experience. Passionate on delivering the best results working with a small and focused team.</p>
-		</div>
-		<section id="profiles">
+		<!-- BASICS -->
+		<section id="basics">
+			<div class="contact">
+			<h3>Contact</h3>
+			<div class="website">
+				<strong>Website</strong>
+				http://webnofear.com.br/
+			</div>
+			<div class="email">
+				<strong>Email</strong>
+				brunoluizkatz@gmail.com
+			</div>
+			</div>
+			<div class="summary">
+				<h3>About</h3>
+				<p>PHP and Javascript specialist with strong experience. Passionate on delivering the best results working with a small and focused team.</p>
+			</div>
+			<section id="profiles">
+				<div class="item">
+					<strong class="network">
+						GitHub
+					</strong>
+					<div class="url">
+						<a href="https://github.com/kidjapa">
+							Bruno Luiz K.
+						</a>
+					</div>
+				</div>
+			</section>
+		</section>
+
+		<!-- WORK -->
+		<section id="work">
+			<h2>Work</h2>
 			<div class="item">
-				<strong class="network">
-					GitHub
-				</strong>
-				<div class="url">
-					<a href="https://github.com/kidjapa">
-						Bruno Luiz K.
-					</a>
+				<h3 class="work_name">
+					Mout's - Soluções em TI
+				</h3>
+				
+				<div class="work_position">
+					Full Stack Developer
+				</div>
+
+				<div class="work_date">
+					<span class="startDate">
+						2018-09
+					</span>
+					<span class="endDate">
+						- Present
+					</span>
+				</div>
+
+				<div class="work_website">
+					<a href="http://mouts.info/">http://mouts.info/</a>
+				</div>
+
+
+				<div class="summary">
+					<p>Working on the Web Systems team, delivering Node.js and/or PHP applications.</p>
 				</div>
 			</div>
+
+			<div class="item">
+				<h3 class="work_name">
+					Portomontt - B2B
+				</h3>
+				
+				<div class="work_position">
+					PHP Full Developer
+				</div>
+
+				<div class="work_date">
+					<span class="startDate">
+						2018-04
+					</span>
+					<span class="endDate">
+						- 2018-09
+					</span>
+				</div>
+
+				<div class="work_website">
+					<a href="http://portomontt.com.br">http://portomontt.com.br</a>
+				</div>
+
+
+				<div class="summary">
+					<p>Working on the Web Systems team, delivering PHP applications with <a href='https://symfony.com'>Symfony</a> framwork. 
+						Focused in B2B and B2C e-commerces and institucional websites.</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<h3 class="work_name">
+					HBTec - CRM
+				</h3>
+				
+				<div class="work_position">
+					PHP / C++
+				</div>
+
+				<div class="work_date">
+					<span class="startDate">
+						2009-06
+					</span>
+					<span class="endDate">
+						- 2011-02
+					</span>
+				</div>
+
+				<div class="work_website">
+					<a href="http://www.hbtec.com.br/">http://www.hbtec.com.br/</a>
+				</div>
+
+
+				<div class="summary">
+					<p>Working on the Web Systems and desktop softwares, delivering C++ and PHP applications. 
+						Focused in CRM systems.</p>
+				</div>
+			</div>
+
+			
 		</section>
-	</section>
 
-	<section id="work">
-		<h2>Work</h2>
-		<div class="item">
-			<h3 class="work_name">
-				Mout's - Soluções em TI
-			</h3>
-			
-			<div class="work_position">
-				Full Stack Developer
-			</div>
-
-			<div class="work_date">
-				<span class="startDate">
-					2018-09
-				</span>
-				<span class="endDate">
-					- Present
-				</span>
-			</div>
-
-			<div class="work_website">
-				<a href="http://mouts.info/">http://mouts.info/</a>
-			</div>
-
-
-			<div class="summary">
-				<p>Working on the Web Systems team, delivering Node.js and/or PHP applications.</p>
-			</div>
-		</div>
-
-		<div class="item">
-			<h3 class="work_name">
-				Portomontt - B2B
-			</h3>
-			
-			<div class="work_position">
-				PHP Full Developer
-			</div>
-
-			<div class="work_date">
-				<span class="startDate">
-					2018-04
-				</span>
-				<span class="endDate">
-					- 2018-09
-				</span>
-			</div>
-
-			<div class="work_website">
-				<a href="http://portomontt.com.br">http://portomontt.com.br</a>
-			</div>
-
-
-			<div class="summary">
-				<p>Working on the Web Systems team, delivering PHP applications with <a href='https://symfony.com'>Symfony</a> framwork. 
-					Focused in B2B and B2C e-commerces and institucional websites.</p>
-			</div>
-		</div>
-
-		<div class="item">
-			<h3 class="work_name">
-				HBTec - CRM
-			</h3>
-			
-			<div class="work_position">
-				PHP / C++
-			</div>
-
-			<div class="work_date">
-				<span class="startDate">
-					2018-04
-				</span>
-				<span class="endDate">
-					- 2018-09
-				</span>
-			</div>
-
-			<div class="work_website">
-				<a href="http://portomontt.com.br">http://portomontt.com.br</a>
-			</div>
-
-
-			<div class="summary">
-				<p>Working on the Web Systems team, delivering PHP applications with <a href='https://symfony.com'>Symfony</a> framwork. 
-					Focused in B2B and B2C e-commerces and institucional websites.</p>
-			</div>
-		</div>
-
-		
-	</section>
-
-	<section id="volunteer">
-	</section>
-	
+		<!-- LANGUAGES -->
+		<section id="languages">
+		</section>
 	</div>
-	</body>
+</div>
+
+
+	<script>
+
+			var app1 = new Vue({
+				el: '#cv-app',
+				data: {
+				},
+				methods:{
+				},
+				created: function(){
+				}
+			});
+		
+		</script>
+</body>
 </html>
