@@ -406,6 +406,10 @@
 		background-color: #404040;
 		color: rgba(136, 129, 129, 0.842);
 	}
+	.progress-english{
+		background-color: #6e6a6a;
+		color: rgba(226, 225, 225, 0.842);
+	}
 
 .profile-picture{
 	width: 75px;

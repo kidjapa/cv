@@ -6,7 +6,7 @@ let json_data = {
             "start_date": "2018-09",
             "end_date": "present",
             "work_website": "http://mouts.info/",
-            "summary": "Working with Web Systems team, delivering Node.js and/or PHP applications."
+            "summary": "Working with Web Systems, delivering Node.js and/or PHP applications. Configurations in Linux server to deploy applications."
         },
         {
             "name": "Portomontt - B2B",
@@ -14,7 +14,7 @@ let json_data = {
             "start_date": "2018-04",
             "end_date": "2018-09",
             "work_website": "http://portomontt.com.br",
-            "summary": "Working with Web Systems team, delivering PHP applications with <a href='https://symfony.com'>Symfony</a> framework. Focused in B2B and B2C e-commerces and institucional websites."
+            "summary": "Working with Web Systems, delivering PHP applications with <a href='https://symfony.com'>Symfony</a> framework. Focused in B2B and B2C e-commerces and institucional websites."
         },
         {
             "name": "HBTec - CRM",
